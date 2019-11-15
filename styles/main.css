@@ -1,9 +1,54 @@
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:500,800&display=swap&subset=cyrillic');
+@import "fonts.css";
 
 body {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+}
+
+nav {
+  background: #000;
+  height: 60px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  height: 44px;
+}
+
+.intro {
+  font-weight: 800;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 20px;
+  margin: 56px 0 8px 0;
+}
+
+.intro h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.intro p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #949494;
+  text-align: left;
+  padding: 0 16px;
+  margin: 40px 0 56px 0;
+}
+
+.intro img {
+  width: 275px;
+}
+
+.intro p em {
+  color: #000;
 }
