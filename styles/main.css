@@ -58,6 +58,25 @@ nav {
   color: #000;
 }
 
+.advantages ul {
+  padding: 0 16px;
+}
+
+.advantages li {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 800;
+  color: #949494;
+  padding: 16px 0 48px 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.advantages li em {
+  color: #000;
+  display: block;
+}
+
+
 @media (min-width: 768px) {
   nav {
     padding: 0 24px;
