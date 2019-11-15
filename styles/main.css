@@ -8,6 +8,10 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 nav {
   background: #000;
   height: 60px;
@@ -19,6 +23,7 @@ nav {
 
 .nav__logo {
   height: 44px;
+  width: 84px;
 }
 
 .intro {
