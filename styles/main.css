@@ -52,3 +52,32 @@ nav {
 .intro p em {
   color: #000;
 }
+
+@media (min-width: 768px) {
+  nav {
+    padding: 0 24px;
+  }
+
+  .intro h1 {
+    font-size: 40px;
+    margin: 96px 0 16px 0;
+  }
+
+  .intro h2 {
+    font-size: 80px;
+    margin-bottom: 80px;
+  }
+
+  .intro p {
+    font-size: 36px;
+    line-height: 48px;
+    color: #949494;
+    text-align: left;
+    padding: 0 24px;
+    margin: 72px 0 82px 0;
+  }
+
+  .intro img {
+    min-width: 661px;
+  }
+}
